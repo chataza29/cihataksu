@@ -8,8 +8,8 @@ public class MetinislemleriTest {
 	@Test
 	public void testBuyukHarf() {
 		String sonuc = Metinislemleri
-				.buyukHarf("cihat");
-		Assert.assertEquals("CIHAT",sonuc);
+				.buyukHarf("chat");
+		Assert.assertEquals("CHAT",sonuc);
 	}
 
 }
