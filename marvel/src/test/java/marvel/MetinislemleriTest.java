@@ -9,7 +9,7 @@ public class MetinislemleriTest {
 	public void testBuyukHarf() {
 		String sonuc = Metinislemleri
 				.buyukHarf("cihat");
-		Assert.assertEquals("CÝHAT",sonuc);
+		Assert.assertEquals("CIHAT",sonuc);
 	}
 
 }
